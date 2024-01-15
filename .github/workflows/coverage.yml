@@ -1,9 +1,7 @@
 name: Measure coverage
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
+on: push
+  
 
 jobs:
   build:
